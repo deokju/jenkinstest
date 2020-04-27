@@ -8,8 +8,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("sample")
 public class SampleController {
 
-    @GetMapping
-    public String mainView() {
+    @GetMapping("index")
+    public String index() {
         return "index";
+    }
+
+    @GetMapping("index2")
+    public String index2() {
+        return "index2";
     }
 }
