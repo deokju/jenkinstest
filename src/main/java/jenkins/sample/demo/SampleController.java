@@ -17,4 +17,9 @@ public class SampleController {
     public String index2() {
         return "index2";
     }
+
+    @GetMapping("index3")
+    public String index3() {
+        return "index3";
+    }
 }
